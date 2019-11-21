@@ -1,0 +1,1155 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:#edfbf7;
+    height: 100%;
+    font-family: sans-serif;
+}
+html{
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    max-height: 822px;
+    max-width: 413px;
+    background: #fff;
+    margin: 0% auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 25px;
+    
+}
+
+/*header  item1*/
+.item_in_head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item1
+{
+    height: 3%;
+    margin-bottom: 20px;
+}
+
+.one_block
+{
+    height: 100%;
+}
+.in_one_block
+{
+    padding: 15px 15px;
+}
+.arrow
+{
+  width: 7px;
+    height: 7px;
+    /* background: black; */
+    border: 1px solid transparent;
+    transform: rotate(-132deg);
+    border-top: 2px solid #323b6e;
+    border-right: 2px solid #323b6e;
+}
+
+.one_toch
+{
+    width: 6px;
+    height: 6px;
+    background: #323b6e;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.text_head
+{
+    color: #323b6e;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*item2*/
+
+.block_img_and_text_Nfc
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.block_img_and_text_Nfc img 
+{
+    margin-right: 5px;
+}
+.back_reports
+{
+    background: #3bbaae;
+    height: 69px;
+    border-radius: 12px;
+}
+.in_back_repot
+{
+    padding: 18px 21px;
+}
+.Nfc
+{
+    font-size: 13px;
+    color: #e9f8f6;
+}
+.item2
+{
+    height: 21%;
+}
+
+.procent
+{
+    font-size: 12px;
+    color:#e9f8f6;
+}
+.reports
+{
+    font-size: 23px;
+    color:#323b6e;
+    margin: 0 0 10px 0;
+}
+
+/*item3*/
+
+.block_img img
+{
+    width: 100%;
+}
+.block_transaction
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.chart-block{
+    position: relative;
+}
+#myChart2
+{
+    position: absolute;
+    top: 5px;
+    left: 0;
+
+    right: 0;
+    
+}
+
+.number_trans span{
+    color: #c4c5d5;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 5px;
+    
+}
+.number_trans
+{
+    font-size: 14px;
+    font-weight: bold;
+    color:#323b6e;
+}
+
+.transaction
+{
+    font-weight: bold;
+    font-size: 15px;
+    color:#323b6e;
+}
+
+.item3
+{
+    height: 41%;
+    margin-top: 20px;
+    
+}
+
+.block_img
+{
+    box-shadow: 1px 6px 11px #baece761;
+}
+
+.shkala
+{
+    width: 100%;
+}
+
+.block_days
+{
+    display: flex;
+    padding: 6px 17px;
+    
+}
+
+.day1
+{
+    margin-right: 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.day1:last-child
+{
+    margin-right: 0;
+}
+
+.year
+{
+    color:#c5c6d6;
+}
+
+.day
+{
+    color:#c5c6d6;
+}
+.Monyh
+{
+    position: relative;
+}
+.Monyh:after
+{
+    content: '';
+    display: flex;
+    /* left: 0; */
+    right: -7px;
+    bottom: 5px;
+    position: absolute;
+    width: 2px;
+    background: black;
+    height: 3px;
+    border-radius: 50%;
+}
+
+.Monyh:before
+{
+     content:'';
+    display: flex;
+    left: -7px;
+    bottom: 5px;
+    position: absolute;
+    width: 2px;
+    background: black;
+    height: 3px;
+    border-radius: 50%;
+}
+/*item4*/
+.item4
+{
+    height: 20%;
+    padding: 10px 0;
+}
+.block_content
+{
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.title_it4
+{
+    font-size: 18px;
+    
+    color: #384173;
+    margin-bottom: 6px;
+}
+
+.number_it4
+{
+    font-size: 21px;
+    font-weight: bold;
+    color: #384173;
+}
+
+.block_input_range
+{
+     margin: 0 20px;
+    width: 170px;
+    display: inline-block;
+    position: relative;
+}
+
+.block_input_range .box-shal .item1re:nth-child(odd)
+{
+    height: 3.2px;
+    
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+    margin: 0;
+  height: 4px;
+  border-radius: 5px;  
+  background:-webkit-linear-gradient(left, #ff9051 10%, #ff9051 10%, #e8e9f3 0%, #e8e9f3 100%);
+  outline: none;
+  
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+ 
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+ background: #5ec8be url('http://icongal.com/gallery/image/94866/refresh.png');
+  border-radius: 75%;
+    background-size: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+  display: block;
+  cursor: pointer;
+  position: relative;
+}
+
+
+
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #5ec8be url('http://icongal.com/gallery/image/94866/refresh.png');
+  cursor: pointer;
+  position: relative;
+}
+
+
+
+.slider3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item4_btn
+{
+    border: none;
+    background: #ff9051;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 9px;
+    text-align: center;
+    
+    padding: 12px 23px;
+    margin-top: 15px;
+    
+}
+
+.block_button
+{
+    display: flex;
+    justify-content: center;
+}
+
+#out{
+    font-size: 14px;
+   
+    color: #b5b6cb;
+    
+}
+
+.item1_lineal1
+{
+    width: 3px;
+    height: 0.6px;
+    background: black;
+   
+    
+}
+
+.block_more_linial
+{
+   
+}
+
+/*two_block*/
+.two_block
+{
+    background: #fff;
+    height: 100%;
+    max-height: 900px;
+    max-width: 411px;
+    width: 100%;
+    transition: .2s linear;
+}
+
+.two_block
+{
+    position: absolute;
+    top: 0;  
+    right: 100%;
+}
+/*anim_block js*/
+.poyavlenie
+{
+    right: 0;
+}
+/*header*/
+
+/*rotate start*/
+
+.back_vise
+{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 100%;
+    border-radius: 33px 33px 0px 0px;
+    -moz-backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+}
+
+.back_vise,.dva_blocka_in
+{
+    transition: transform 1s linear;
+}
+
+.chart-block
+{ 
+  position: relative;
+    margin: auto;
+    width: 105%;
+    left: -5%;
+}
+#myChart
+{
+    
+    width: 100% !important;
+   
+    
+}
+.dva_blocka_in
+{
+  position: absolute;
+    top: 61px;
+    width: 100%;
+    height: 100%;
+    border-radius: 33px 33px 0px 0px;
+    backface-visibility: hidden;
+    
+}
+.back_vise
+{
+     background: #3abaae;
+    transform: perspective(600px) rotateY(180deg);
+}
+.dva_blocka_in
+{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+
+.block_krututsy > .dva_blocka_in
+{
+   
+    
+    transform: perspective(600px) rotateY(-180deg);
+    
+}
+.block_krututsy > .back_vise
+{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+/*rotate finish*/
+.logo
+{
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+}
+.header_blor_rorar
+{
+    position: absolute;
+    top: 59px;
+    right: 0;
+    left: 0;
+    height: 112px;
+}
+.block_Visa
+{
+    background: #3abaae;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 33px 33px 0px 0px;
+    -moz-backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+}
+
+.in_block_Visa_header
+{
+ padding: 27px 27px;
+}
+
+.visa_number
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.number_visa_fot
+{
+    color: #b1dbdd;
+    font-size: 12px;
+}
+.block_img_visa_
+{
+   width: 72px;
+    height: 41px;
+    background: silver;
+}
+.in_block_Visa_header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inner_block_two_blcok
+{
+    height: 100%;
+    position: relative;
+}
+.sosnov_block
+{
+    height: 100%;
+}
+.item_in_head
+{
+    padding: 0px 6px;
+    
+}
+
+.box-shal
+{
+    position: absolute;
+    top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.item1re
+{
+    height: 5px;
+    width: 1px;
+    background: black;
+    /* margin-left: 10px; */
+    margin-left: 10px;
+    background: silver;
+   
+    
+    
+}
+.item_in_head2
+{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 21px;
+}
+.inner_block_cards
+{
+    height: 100%;
+}
+
+/*block3*/
+.block_cards{
+    position: absolute;
+    top: 95px;
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+    background: #fff;
+    border-radius: 31px 31px 0 0;
+}
+.inner_header_cards
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+}
+.cards
+{
+    font-size: 14px;
+    margin-right: 30px;
+    color: #b5b6cb;
+    font-weight: normal;
+    position: relative;
+    
+}
+.cards:after
+{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background:#323b6e;
+    opacity: 0;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    transition: .2s linear;
+}
+.cards:hover
+{
+    color: #323b6e;
+}
+.cards:hover:after
+{
+    opacity: 1;
+}
+.cards:last-child{
+    margin: 0;
+}
+.block_bankov_card
+{
+    background: #f8f9fc;
+}
+.img_bankov_card
+{
+    width: 54px;
+    height: 73px;
+    background: silver;
+  
+    margin-right: 12px;
+    border-radius: 6px;
+}
+.number_card
+{
+  color: #d4d5e2;
+    font-size: 11px;
+    font-weight: bold;
+}
+.Vis_bank
+{
+    color: #323b6e;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.block_card_in
+{
+    display: flex;
+    padding: 11px 0px 11px 19px;
+    
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+}
+.block_card_in::-webkit-scrollbar
+{
+    display: none;
+}
+.block_card_in::-moz-scrollbar
+{
+    display: none;
+}
+.block_card_in::-ms-scrollbar
+{
+    display: none;
+}
+
+.block_rigth_cards
+{
+    display: flex;
+    
+}
+.item_block_in_card
+{
+    margin-right: 20px;
+}
+/*blocl4*/
+.in_block_play
+{
+    padding: 15px 0px 0 21px;
+}
+.block_bay_play::-webkit-scrollbar{
+    display: none;
+}
+.block_bay_play::-moz-scrollbar{
+    display: none;
+}
+.block_bay_play::-ms-scrollbar{
+    display: none;
+}
+
+.todY
+{
+        font-size: 19px;
+    color: #323b6e;
+    margin-bottom: 10px;
+}
+
+.block_l_img
+{
+    width: 46px;
+    height: 47px;
+    background: #676eff;
+    box-shadow: 0 0 black;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.item_play1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+    
+}
+.item_play1:after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    background: #f1f2f8;
+    height: 1px;
+}
+.block_l
+{
+    display: flex;
+    align-items: center;
+}
+
+.text_
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: #697095;
+}
+.paragraf_
+{
+    font-size: 11px;
+    font-weight: bold;
+    color: #bbbccf;
+}
+.cena_play
+{
+    color: #48507e;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.block_bay_play
+{
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 214px;
+}
+.item_block_in_card
+{
+    display: flex;
+    align-items: center;
+}
+
+@media  (min-height:600px) and (max-height:900px){
+/*    header*/
+    .block_cards
+    {
+        top: 110px;
+    }
+    .text_head2
+    {
+        font-size: 23px;
+    }
+    .logo
+    {
+        width: 36px;
+        height: 37px;
+    }
+    .arrow
+    {
+        width: 11px;
+        height: 11px;
+    }
+   
+/*    bloc_visa*/
+    .visa_number
+    {
+        font-size: 32px;
+    }
+    .number_visa_fot
+    {
+        font-size: 16px;
+    }
+   
+    .block_img_visa_
+    {
+        width: 103px;
+        height: 58px;
+    }
+    .cards
+    {
+        font-size: 19px;
+    }
+    .img_bankov_card
+    {
+        width: 69px;
+        height: 92px;
+    }
+    .Vis_bank
+    {
+        font-size: 23px;
+    }
+    .item_block_in_card
+    {
+        margin-right: 80px;
+    }
+    .todY
+    {
+        font-size: 30px;
+    }
+    .block_l_img
+    {
+        width: 66px;
+        height: 64px;
+    }
+    .text_
+    {
+        font-size: 18px;
+    }
+    .paragraf_
+    {
+        font-size: 13px;
+    }
+    .cena_play
+    {
+        font-size: 20px;
+    }
+    .item_play1
+    {
+        margin-bottom: 26px;
+    }
+    .item_play1:after
+    {
+        bottom: -12px;
+    }
+    .block_bay_play 
+    {
+        max-height: 418px;
+    }
+    .cards:after
+    {
+        height: 4px;
+        width:69px;
+    }
+    .cards:first-child:after{
+        width: 53px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media   (min-height:800px) and (max-height:900px) 
+{
+    .container
+    {
+        border-radius: 0;
+    }
+    .text_head{
+    font-size: 19px;
+       
+        
+    }
+    .reports
+    {
+        font-size: 30px;
+        margin: 0px 0 9px 0;
+    }
+    .in_back_repot
+    {
+        padding: 21px 21px;
+    }
+    .back_reports
+    {
+    background: #3bbaae;
+    height: 115px;
+    border-radius: 12px
+    }
+    .block_img_and_text_Nfc img
+    {
+    margin-right: 5px;
+    width: 47px;
+    height: 45px;
+    }
+    .Nfc
+    {
+        font-size: 19px;
+    }
+    .procent
+    {
+        font-size: 15px;
+    }
+    .block_img_and_text_Nfc
+    {
+        margin-bottom: 10px;
+    }
+    .item3
+    {
+        height: 37%;
+    }
+    .item4
+    {
+        height: 24%;
+        padding: 22px 0;
+    }
+    .item4_btn
+    {
+       font-size: 13px;    
+    }
+    .item2{
+        height: 23%;
+    }
+    .reports
+    {
+        margin: 0px 0 21px 0;
+    }
+    .transaction
+    {
+        font-size: 22px;
+    }
+    .block_transaction
+    {
+        margin: 24px 0px;
+    }
+    .block_days
+    {
+      padding: 10px 10px;    
+    }
+    .number_trans
+    {
+        font-size: 20px;
+    }
+    .number_trans span
+    {
+       font-size: 11px;    
+    }
+    .block_img img
+    {
+       height: 293px;    
+    }
+    .Monyh day1
+    {
+        font-size: 13px;
+    }
+    .title_it4
+    {
+        font-size: 23px;
+    font-weight: normal;
+        margin-bottom: 17px;
+    }
+    
+    .block_content
+    {
+        margin-bottom: 6px;
+    }
+    .slider
+    {
+       margin: 19px 8px;    
+    }
+    .item4_btn
+    {
+        padding: 17px 54px;
+    }
+    #dolar_chis
+    {
+        font-size: 35px;
+    }
+}
+
+
+
+@media      (min-height:730px)  and (max-height:800px)
+{
+    .container{
+        border-radius: 0;
+    }
+   
+    .item4
+    {
+        height: 25%;
+    }
+    .in_back_repot
+    {
+        padding: 25px 21px;
+    }
+    .back_reports
+    {
+        height: 94px;
+    }
+    .transaction
+    {
+        font-size: 22px;
+    }
+    .number_trans
+    {
+        font-size: 18px;
+    }
+    .Nfc
+    {
+        font-size: 20px;
+    }
+    .item2
+    {
+        height: 22%;
+    }
+    .item1
+    {
+        height: 3%;
+        
+    }
+    .reports
+    {
+        font-size: 28px;
+        margin: 0 0 20px 0;
+        
+    }
+    .number_it4
+    {
+        font-size: 37px;
+    }
+    .slider3 
+    {
+        padding-bottom: 19px;
+    }
+    .item4_btn
+    {
+        font-size: 12px;
+        padding: 14px 35px;
+    }
+    .in_one_block 
+    {
+        padding: 12px 15px;
+    }
+    .procent
+    {
+        font-size: 14px;
+    }
+    .title_it4
+    {
+      font-size: 22px;
+    }
+    .item3
+    {
+        height: 42%;
+    }
+    
+}
+
+
+
+@media   (min-height:600px) and (max-height:700px){
+    .container{
+        border-radius: 0;
+    }
+   
+    .in_back_repot
+    {
+        padding: 13px 21px;
+    }
+  
+    .block_img_and_text_Nfc img
+    {
+        width: 30px;
+        height: 30px;
+    }
+    .block_img img
+    {
+        height: 203px;
+    }
+    .number_trans
+    {
+        font-size: 19px;
+    }
+    .transaction
+    {
+        font-size: 24px;
+    }
+    .back_reports
+    {
+        height: 84px;
+    }
+    .item4
+    {
+        padding: 20px 0;
+        height: 22%;
+    }
+    .item3
+    {
+        height: 44%;
+        margin-top: 13px;
+    }
+    
+    .block_days
+    {
+      padding: 10px 10px;    
+    }
+    .title_it4
+    {
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .number_it4
+    {
+        font-size: 30px;
+    }
+   
+    .item4_btn
+    {
+        font-size: 11px;
+    }
+    .block_bay_play
+    {
+       max-height: 448px;    
+    }
+} 
+
+
+@media (max-height:568px){
+    .container{
+        border-radius: 0;
+    }
+}
